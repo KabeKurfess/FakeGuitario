@@ -1,1 +1,9 @@
-!
+.Team-Header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 8%;
+}

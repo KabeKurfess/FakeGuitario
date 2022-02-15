@@ -1,1 +1,32 @@
-!
+ body{
+
+ }
+ .card-container{
+    height: 60%;
+}
+.Why-Choose-Us-Header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    margin-top: 15%;
+}
+.header-info{
+    display: flex;
+    justify-content: center;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 15%;
+}
+.info-text{
+    text-align: center;
+}
+.Guitar-cards{
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 60%;
+    margin-bottom: 3%;
+}
+
+    
+
