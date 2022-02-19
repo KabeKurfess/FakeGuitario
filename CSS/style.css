@@ -1,32 +1,38 @@
- body{
+ body {
+    font-family: 'OPEN SANS', sans-serif;
+ }
+ .carousel-caption{
+     text-shadow: 2px 1px black;
+ }
+
+ .card-container {
+     height: 60%;
+ }
+
+ .Why-Choose-Us-Header {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 10%;
+     margin-top: 15%;
+ }
+
+ .header-info {
+     display: flex;
+     justify-content: center;
+     margin-right: 10%;
+     margin-left: 10%;
+     margin-bottom: 4%;
 
  }
- .card-container{
-    height: 60%;
-}
-.Why-Choose-Us-Header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10%;
-    margin-top: 15%;
-}
-.header-info{
-    display: flex;
-    justify-content: center;
-    margin-right: 10%;
-    margin-left: 10%;
-    margin-bottom: 15%;
-}
-.info-text{
-    text-align: center;
-}
-.Guitar-cards{
-    margin-left: 10%;
-    margin-right: 10%;
-    height: 60%;
-    margin-bottom: 3%;
-}
 
-    
+ .info-text {
+     text-align: center;
+ }
 
+ .Guitar-cards {
+     margin-left: 10%;
+     margin-right: 10%;
+     height: 60%;
+     margin-bottom: 20%;
+ }

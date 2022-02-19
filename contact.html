@@ -12,6 +12,17 @@
       crossorigin="anonymous"
     />
     <!--Bootsrap End -->
+    <!--Font Awesome Start-->
+    <script
+      src="https://kit.fontawesome.com/7ffddffaaa.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--Font Awesome End-->
+    <!--Google Fonts Start-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Quintessential&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+     <!--Google Fonts End-->
 
     <title>Document</title>
     <link rel="stylesheet" href="/CSS/contact.css" />
@@ -19,7 +30,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-black">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/index.html">Navbar</a>
+        <a class="navbar-brand" href="/index.html"> <img src="/IMG/Guitario-V2-Logo.png" alt="Logo" width="100px" height="100px"></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -34,14 +45,222 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
             <a class="nav-link active" aria-current="page" href="/index.html"
-              >Guitario</a
+              >Home</a
             >
-            <a class="nav-link" href="/about.html">About</a>
-            <a class="nav-link" href="/contact.html">Contact</a>
+            <a class="nav-link" href="/about.html">About Page</a>
+            <a class="nav-link" href="/contact.html">Contact page</a>
           </div>
         </div>
       </div>
     </nav>
+    <div class="Form-Header text-center p-3">
+      <h1>Fill Out This Form To Sign Up!</h1>
+      <p>We will email you about further payment options.</p>
+    </div>
+    <form class="row g-3 p-5">
+      <div class="col-md-6">
+        <label for="inputEmail4" class="form-label">Email</label>
+        <input type="email" class="form-control" id="inputEmail4" />
+      </div>
+      <div class="col-md-6">
+        <label for="inputPassword4" class="form-label">Password</label>
+        <input type="password" class="form-control" id="inputPassword4" />
+      </div>
+      <div class="col-12">
+        <label for="inputAddress" class="form-label">Address</label>
+        <input
+          type="text"
+          class="form-control"
+          id="inputAddress"
+          placeholder="1234 Main St"
+        />
+      </div>
+      <div class="col-12">
+        <label for="inputAddress2" class="form-label">Address 2</label>
+        <input
+          type="text"
+          class="form-control"
+          id="inputAddress2"
+          placeholder="Apartment, studio, or floor"
+        />
+      </div>
+      <div class="col-md-6">
+        <label for="inputCity" class="form-label">City</label>
+        <input type="text" class="form-control" id="inputCity" />
+      </div>
+      <div class="col-md-4">
+        <label for="inputState" class="form-label">State</label>
+        <select id="inputState" class="form-select">
+          <option selected>Choose...</option>
+          <option>Alabama</option>
+          <option>Alaska</option>
+          <option>Arizona</option>
+          <option>Arkansas</option>
+          <option>California</option>
+          <option>Colorado</option>
+          <option>Connecticut</option>
+          <option>Delaware</option>
+          <option>Florida</option>
+          <option>Georgia</option>
+          <option>Hawaii</option>
+          <option>Idaho</option>
+          <option>Illinois</option>
+          <option>Indiana</option>
+          <option>Iowa</option>
+          <option>Kansas</option>
+          <option>Kentucky</option>
+          <option>Louisiana</option>
+          <option>Maine</option>
+          <option>Maryland</option>
+          <option>Massachusetts</option>
+          <option>Michigan</option>
+          <option>Minnesota</option>
+          <option>Mississippi</option>
+          <option>Missouri</option>
+          <option>Montana</option>
+          <option>Nebraska</option>
+          <option>Nevada</option>
+          <option>New Hampshire</option>
+          <option>New Jersey</option>
+          <option>New Mexico</option>
+          <option>New York</option>
+          <option>North Carolina</option>
+          <option>North Dakota</option>
+          <option>Ohio</option>
+          <option>Oklahoma</option>
+          <option>Oregon</option>
+          <option>Pennsylvania</option>
+          <option>Rhode Island</option>
+          <option>South Carolina</option>
+          <option>South Dakota</option>
+          <option>Tennessee</option>
+          <option>Texas</option>
+          <option>Utah</option>
+          <option>Vermont</option>
+          <option>Virginia</option>
+          <option>Washington</option>
+          <option>West Virginia</option>
+          <option>Wisconsin</option>
+          <option>Wyoming</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label for="inputZip" class="form-label">Zip</label>
+        <input type="text" class="form-control" id="inputZip" />
+      </div>
+      <div class="col-12">
+        <select
+          class="form-select form-select-sm"
+          aria-label=".form-select-sm example"
+        >
+          <option selected>Select Which Plan You Would Like</option>
+          <option value="1">Level 1 Electric</option>
+          <option value="2">Level 2 Electric</option>
+          <option value="3">Level 3 Electric</option>
+          <option value="4">Level 4 Electric</option>
+          <option value="5">Level 5 Electric</option>
+          <option value="6">Level 6 Electric</option>
+          <option value="7">Level 7 Electric</option>
+          <option value="8">Level 8 Electric</option>
+          <option value="9">Level 9 Electric</option>
+          <option value="10">Level 1 Acoustic</option>
+          <option value="11">Level 2 Acoustic</option>
+          <option value="12">Level 3 Acoustic</option>
+          <option value="13">Level 4 Acoustic</option>
+          <option value="14">Level 5 Acoustic</option>
+          <option value="15">Level 6 Acoustic</option>
+          <option value="16">Level 7 Acoustic</option>
+          <option value="17">Level 8 Acoustic</option>
+          <option value="18">Level 9 Acoustic</option>
+        </select>
+      </div>
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck" />
+          <label class="form-check-label" for="gridCheck"> Check me out </label>
+        </div>
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Confirm</button>
+      </div>
+    </form>
+    <div class="Faqs-Header text-center p-3">
+      <h1>BROWSE OUR MOST COMMON FAQS</h1>
+    </div>
+    <div class="accordion text-center p-5" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseOne"
+            aria-expanded="true"
+            aria-controls="collapseOne"
+          >
+            How do you access the courses?
+          </button>
+        </h2>
+        <div
+          id="collapseOne"
+          class="accordion-collapse collapse show"
+          aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <p>After submitting and purchasing via an email we send you, you will then be given access to the courses within the website.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo"
+            aria-expanded="false"
+            aria-controls="collapseTwo"
+          >
+            Is it an online or in person course?
+          </button>
+        </h2>
+        <div
+          id="collapseTwo"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingTwo"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <p>All of our offered courses are completely online while furhter leveled classes get a chance to perfom in person.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseThree"
+            aria-expanded="false"
+            aria-controls="collapseThree"
+          >
+            Where do I contact for further questions?
+          </button>
+        </h2>
+        <div
+          id="collapseThree"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <p>We can be reached via our email at the bottom right of our page. Feel free to ask any more questions you would like.</p>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Footer -->
     <footer class="bg-black text-center text-white">
       <!-- Grid container -->
@@ -56,17 +275,17 @@
           <div class="row">
             <!--Grid column-->
             <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Links</h5>
+              <h5 class="text-uppercase"><img src="/IMG/Guitario-V2-Logo.png" alt="Logo" width="100px" height="100px"></h5>
 
               <ul class="list-unstyled mb-0">
                 <li>
-                  <a href="#!" class="text-white">Link 1</a>
+                  <a href="/contact.html" class="text-white">Back to Top</a>
                 </li>
                 <li>
-                  <a href="#!" class="text-white">Link 2</a>
+                  <a href="/about.html" class="text-white">Back to Home</a>
                 </li>
                 <li>
-                  <a href="#!" class="text-white">Link 3</a>
+                  <a href="/about.html" class="text-white">About us!</a>
                 </li>
               </ul>
             </div>
@@ -77,7 +296,7 @@
               <!-- Facebook -->
               <a
                 class="btn btn-outline-light btn-floating m-1"
-                href="#!"
+                href="https://facebook.com"
                 role="button"
                 ><i class="fab fa-facebook-f"></i
               ></a>
@@ -85,7 +304,7 @@
               <!-- Twitter -->
               <a
                 class="btn btn-outline-light btn-floating m-1"
-                href="#!"
+                href="https://twitter.com"
                 role="button"
                 ><i class="fab fa-twitter"></i
               ></a>
@@ -93,7 +312,7 @@
               <!-- Google -->
               <a
                 class="btn btn-outline-light btn-floating m-1"
-                href="#!"
+                href="https://google.com"
                 role="button"
                 ><i class="fab fa-google"></i
               ></a>
@@ -101,7 +320,7 @@
               <!-- Instagram -->
               <a
                 class="btn btn-outline-light btn-floating m-1"
-                href="#!"
+                href="https://instagram.com"
                 role="button"
                 ><i class="fab fa-instagram"></i
               ></a>
@@ -109,7 +328,7 @@
               <!-- Linkedin -->
               <a
                 class="btn btn-outline-light btn-floating m-1"
-                href="#!"
+                href="https://linkedin.com"
                 role="button"
                 ><i class="fab fa-linkedin-in"></i
               ></a>
@@ -117,7 +336,7 @@
               <!-- Github -->
               <a
                 class="btn btn-outline-light btn-floating m-1"
-                href="#!"
+                href="https://github.com"
                 role="button"
                 ><i class="fab fa-github"></i
               ></a>
@@ -126,17 +345,20 @@
 
             <!--Grid column-->
             <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Links</h5>
+              <h5 class="text-uppercase">Learn more!</h5>
 
               <ul class="list-unstyled mb-0">
                 <li>
-                  <a href="#!" class="text-white">Link 1</a>
+                  <a href="/index.html" class="text-white">Home</a>
                 </li>
                 <li>
-                  <a href="#!" class="text-white">Link 2</a>
+                  <a href="/about.html" class="text-white">About</a>
                 </li>
                 <li>
-                  <a href="#!" class="text-white">Link 3</a>
+                  <a class="text-white" href="mailto:guitariolessons@gmail.com">Guitariolessons@gmail.com</a> 
+                </li>
+                <li>
+                  <a class="text-white" href="tel:6617777777">Call us at 661-777-7777</a> 
                 </li>
               </ul>
             </div>
