@@ -7,32 +7,41 @@
 
  .card-container {
      height: 60%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        display: flex;
+        font-size: 2.25vw;
+        
+        
+
  }
 
- .Why-Choose-Us-Header {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     height: 10%;
-     margin-top: 15%;
- }
-
- .header-info {
+ .header-container {
      display: flex;
      justify-content: center;
      margin-right: 10%;
      margin-left: 10%;
      margin-bottom: 4%;
+     margin-top: 15%;
+     white-space: normal;
+    
+     
 
  }
 
  .info-text {
      text-align: center;
+     margin-top: 15%;
+     margin-bottom: 15%;
+     white-space: normal;
+    font-size: 3vw;
+
  }
 
  .Guitar-cards {
      margin-left: 10%;
      margin-right: 10%;
      height: 60%;
-     margin-bottom: 20%;
+     margin-bottom: 40%;
+     font-size: 2.5vw;
  }
